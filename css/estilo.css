@@ -1,0 +1,175 @@
+/* selectora {
+    propiedad:valor,
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+	text-decoration: none; /*sacar subrayado de links*/
+    list-style: none; /*sacar bulets*/
+    }
+/* header */
+
+body {
+    background-image: url(../assets/img/pexels-pixabay-461049.jpg);
+    background-size: cover;
+}
+.logosup {
+    width: auto;
+    padding-left: 500px;
+    }    
+.encabezado {
+    margin-left: 230px;
+    margin-top: 50px;
+    padding: 20 px;
+    border: 3px solid #eeecec;
+    font-size: 2rem;
+    font-weight: normal;
+    color: antiquewhite;
+}
+  /* main */
+.cuerpo {
+    font-family: Lucida Sans Unicode ;
+    color: antiquewhite;
+    font-size: x-large;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 50px;
+    border: solid 5px dimgrey;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    margin: auto;
+    height: 350px;
+} 
+/* inicio footer */
+.direccionfooter {
+    font-family: Verdana;
+    text-align: center;
+    color: black; 
+    width: 90%;
+    margin-left: 60px;
+    
+}   
+.logoredes {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    border-radius: 20px;
+    border: solid 5px dimgrey;
+    background-image: linear-gradient(rgba(32, 68, 34, 0.836), rgb(148, 148, 141));
+    margin-left: 700px;
+    width: 300px;
+    height: 70px;
+    padding: 19px;
+}
+
+footer div h3 {
+    border-radius: 20px;
+    width: 100%;
+    padding-left: 0px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    height: 20px 
+
+}
+/* inicio contacto */
+
+
+/* inicio nosotros */
+
+.columnafotos {   
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly ;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 50px;
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 5px dimgrey;
+    background-image: linear-gradient(rgba(32, 68, 34, 0.836), rgb(148, 148, 141));
+    }
+
+
+/*inicio responsive */
+@media screen and (max-width:414px) {
+
+/*layout header*/
+body {
+    background-image: url(../assets/img/pexels-pixabay-461049.jpg);
+    background-repeat: no-repeat  
+}
+
+.logoverde {
+        width: 200px;
+        height: 80px;  
+} 
+
+.logosup {
+    width: 370px;
+    padding-left: 2px;
+    padding-right: 2px;        
+}
+.cuerpo {
+    color: white;
+    font-family: Verdana;
+    font-size: small;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 5px;
+    border: solid 5px dimgrey;
+    width: 330px;
+    margin: 13px;  
+}  
+
+/* layout footer */
+
+.direccionfooter {
+    font-family: Verdana; 
+    text-align: center;
+    color:black; 
+    font-size: small;
+    width: 300px;
+    height: 117px;
+    margin-left: 26px;    
+}   
+.direccion-responsive {
+    font-size: medium;
+}
+
+
+.logoredes {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    align-items: center;
+    border: solid 5px dimgrey;
+    color: antiquewhite;
+    background-color: rgba(160, 157, 157, 0.8);
+    border-radius: 20px;
+    margin-left: 16px;
+    width: 302px;
+    height: 22px;
+}
+
+  /*layout nosotros*/
+
+.foto {
+    width: 50px;
+}
+.columnafotos {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 5px;
+    width: 330px;
+} 
+}
+/* ubicacion layout */ 
+
+/* contacto layout */ 
+
